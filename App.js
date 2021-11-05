@@ -17,9 +17,9 @@ const App = () => {
                 screenOptions={{
                     headerShown: false,
                 }}
-                initialRouteName="Home">
+                initialRouteName="Main">
                 <Stack.Screen
-                    name="Home"
+                    name="Main"
                     component={Tabs}
                 />
                 <Stack.Screen
