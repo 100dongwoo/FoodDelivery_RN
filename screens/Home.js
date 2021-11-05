@@ -179,11 +179,10 @@ const Home = ({navigation}) => {
                 <TouchableOpacity
                     style={{marginBottom: SIZES.padding * 2}}
                     onPress={() => {
-                        navigation.navigate(
-                            'Restaurant',
+                        navigation.navigate('Restaurant', {
                             item,
                             currentLocation,
-                        );
+                        });
                     }}>
                     <View style={{marginBottom: SIZES.padding}}>
                         <Image
